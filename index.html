@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@400;700&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>GUI GODOY - SUPORTE E ASSISTÊNCIA TÉCNICA ESPECIALIZADA</title>
+</head>
+<body>
+    <div id="header" class="container">
+        <div id="header">
+            <a href="index.html" class="home">
+                Gui Godoy
+            </a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="#services">MEUS SERVIÇOS</a></li>
+                <li><a href="#orcamento">SOLICITE SEU ORÇAMENTO!</a></li>
+                <li><a href="#contact">FALE COMIGO</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>
+                Olá, meu nome<br>
+                é Guilherme
+            </h1>
+            <p class="gray">
+                Sou Especialista em Reparos e Manutenção<br>
+                e adoraria oferecer meus serviços a você.
+            </p>
+            <a id="buttonCta" href="#services">MEUS SERVIÇOS</a></a>
+        </div>
+        <div id="headerImg">
+            <img src="img/Perfil.png">
+        </div>
+    </div>
+    <div class="container" id="brands">
+        <div id="headerBrandsText">
+            Algumas das marcas<br>
+            que realizo reparos
+        </div>
+        <div class="headerLogo">
+            <img src="img/apple.svg" alt="Logo Apple">
+        </div>
+        <div class="headerLogo">
+            <img src="img/motorola.svg" width="203px" height="44px" alt="Logo Motorola"/>
+        </div>
+        <div class="headerLogo">
+            <img src="img/samsung.svg" width="200px" height="44px" alt="Logo Samsung">
+        </div>
+    </div>
+    <div class="container textCenter">
+        <div id="services">
+            <h2 class="red">CONHEÇA</h2>
+            <h1 class="black">Meus Serviços</h1>
+            <p class="gray">
+                "Vamos juntos encontrar a solução!
+            </p>
+        </div>
+    </div>
+    <div class="container" id="services">
+        <div class="textCenter">
+            <img src="img/iconpc.svg">
+            <h3>Suporte e Atualização</h3>
+            <p class="gray">Te ajudo a organizar seus aparelhos<br>
+                e aprimorar o seu uso no dia-a-dia.</p>
+        </div>
+        <div class="textCenter">
+            <img src="img/iconcel.svg">
+            <h3>Reparo de Peças</h3>
+            <p class="gray">Substituir a bateria, a tela, ou outra<br>
+                peça. Conte comigo para te ajudar.</p>
+        </div>
+        <div class="textCenter">
+            <img src="img/iconmotherboard.svg">
+            <h3>Reparo de Placas</h3>
+            <p class="gray">Faço uma análise geral do<br>
+                seu aparelho danificado.</p>
+        </div>
+    </div>
+    <div class="container" id="orcamento">
+        <div id="orcamentoImg">
+            <img src="img/orcamento.svg">
+        </div>
+        <div id="orcamentoForm">
+            <h2 class="red">ECONOMIZE SEU TEMPO</h2>
+            <h1 class="black">Solicite seu orçamento</h1>
+            <p class="gray">Digite aqui seus dados. Eu entrarei em contato<br>
+                para fornecer um orçamento gratuito.
+            </p>
+            <form action="https://formspree.io/f/mdojnpqv" method="POST">
+                <p>
+                    <input placeholder="Seu Nome" type="text" id="name" name="name" required />
+                </p>
+                <p>
+                    <input placeholder="Seu E-mail" type="email" id="emailInput" name="contactEmail" required>
+                </p>
+                <p>
+                    <input placeholder="Seu Telefone" type="tel" id="tel" name="tel" required>
+                </p>
+                <p>
+                    <textarea placeholder="Descreva aqui o modelo do aparelho, o problema e a melhor forma de contato" type="textarea" id="textarea" name="descrição" required></textarea>
+                </p>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div>
+            <h2 class="red">ACOMPANHE NAS REDES SOCIAIS</h2>
+            <h1 class="black">Me encontre</h1>
+            <ul class="social-links">
+                <li>
+                    <a href="https://instagram.com/guigodoy888?igshid=YmMyMTA2M2Y=" title="Siga-nos no Instagram">
+                        <img src="img/instagram.png" alt="logo do Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no Facebook"></a>
+                        <img src="img/facebook.png" alt="logo do Facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/godoydg/" title="Visite o meu LinkedIn Pessoal">
+                        <img src="img/linkedin.png" alt="logo do LinkedIn" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5541997711622" title="Envie uma mensagem no WhatsApp">
+                        <img src="img/whatsapp-icon.svg" alt="logo do WhatsApp" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="floating-support-button">
+            <a href="https://wa.me/5541997711622">
+                <img src="img/whatsapp-icon.svg" alt="support">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; GUI GODOY - SUPORTE E ASSISTÊNCIA TÉCNICA ESPECIALIZADA - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
